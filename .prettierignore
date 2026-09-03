@@ -1,2 +1,6 @@
 # Test fixtures should not be formatted to preserve exact output matching
 test/fixtures/
+
+# Vendored agent skills — content hashes are recorded in skills-lock.json
+.agents/
+skills-lock.json
